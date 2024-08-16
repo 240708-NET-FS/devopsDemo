@@ -37,4 +37,5 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: './AspDemo/AspDemo.API'
+    zipAfterPublish: true
+    projects: 'AspDemo/AspDemo.API'
