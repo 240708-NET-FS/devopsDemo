@@ -49,4 +49,13 @@ public class UnitTest1
         Assert.Equal(id, trainer?.TrainerId);
         Assert.Equal(name, trainer?.Username);
     }
+
+    [Fact]
+    public void FailingTest()
+    {
+        int i = 0;
+        int k = 1;
+
+        Assert.Equal(i, k);
+    }
 }
