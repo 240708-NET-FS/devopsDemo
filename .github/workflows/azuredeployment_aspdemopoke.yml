@@ -26,7 +26,7 @@ jobs:
         run: dotnet build ./AspDemo/AspDemo.API --configuration Release
 
       - name: Test with the dotnet CLI
-        run: dotnet test
+        run: dotnet test ./AspDemo/AspDemo.TESTS
 
       - name: dotnet publish
         run: dotnet publish ./AspDemo/AspDemo.API -c Release -o ${{env.DOTNET_ROOT}}/myapp
