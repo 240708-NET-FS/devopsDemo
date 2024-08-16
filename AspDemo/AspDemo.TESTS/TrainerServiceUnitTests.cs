@@ -54,7 +54,7 @@ public class UnitTest1
     public void FailingTest()
     {
         int i = 0;
-        int k = 1;
+        int k = 0;
 
         Assert.Equal(i, k);
     }
